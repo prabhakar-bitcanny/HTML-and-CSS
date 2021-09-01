@@ -1,0 +1,46 @@
+/* basic selectors */
+
+/* *{
+    color: red;
+}
+
+#heading{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: blueviolet;
+}
+.heading{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: green;
+}
+p{
+    letter-spacing: 5px;
+} */
+
+
+
+/* descendent and child selectors */
+
+.header h1{
+    color: green;
+}
+
+.header > h1{
+    color: purple;
+}
+div h1{
+    color: red;
+}
+
+/* selecting the direct children */
+div > h1{
+    color: blueviolet;
+}
+
+p::first-line{
+    font-weight: bold;
+}
+p::first-letter{
+    font-size: 20px;
+}

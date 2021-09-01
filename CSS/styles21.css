@@ -1,0 +1,19 @@
+.banner{
+    border: 5px solid black;
+    padding: 10px;
+    /* margin: 0; */
+}
+/* float use kora hy image take paragraph er modhye jekono jaygay set korar jonne */
+.one{
+    float: left;
+}
+.two{
+     float: right;
+     height: 35px;
+}
+/* clear use kora hy image ta ke alada line e rekhe notun line e paragraph ta start korar jonne */
+p{
+    clear: right;
+    /* clear: left; */
+    clear: both;
+}

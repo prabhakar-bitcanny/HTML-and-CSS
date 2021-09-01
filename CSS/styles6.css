@@ -1,0 +1,33 @@
+/* CALC()
+perform math operations
+mix and matchvalues */
+
+*{
+    margin: 0;
+}
+.navbar{
+    background: blue;
+    height: 6rem;
+    color: white;
+    font-size: 3rem;
+}
+.banner{
+    background: red;
+    /* height: calc(100vh - 6rem); */
+    min-height: calc(100vh - 6rem);
+    max-height: 90vh;
+    overflow: hidden;
+    overflow: scroll;
+}
+
+/* height: auto; min-height;max-height;overflow */
+.example{
+    background: green;
+    width: 10rem;
+    height: 25rem;
+    /* overflow ta hidden hole extra content jeta baire chole jay seta r dekhabena */
+    overflow: hidden;
+    /* overflow ta scroll hole extra content ta scroll er modhye chole jabe */
+    overflow: scroll;
+
+}

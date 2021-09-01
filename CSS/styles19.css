@@ -1,0 +1,27 @@
+/* background linear-gradient */
+
+div{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+.one{
+    background: linear-gradient(blue,red);
+    background: linear-gradient(to top, green, yellow);
+}
+.two{
+    background: linear-gradient(to right, pink 10%,white,crimson, red, orange);
+}
+.three{
+    background: linear-gradient(300deg,blue,wheat);
+}
+.four{
+    background: linear-gradient(to top right, violet, purple, pink);
+    background: linear-gradient(to top left, yellow,brown,black);
+}
+.five{
+    background: linear-gradient(blue 20%, yellow);
+}
+.six{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.9));
+}

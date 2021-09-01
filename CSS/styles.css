@@ -1,0 +1,60 @@
+/* h1{
+color:slateblue;
+font-size: 40px;
+    }
+h2{
+    color: turquoise;
+    font-size: 30px;
+    }
+p{
+    color: blue;
+    font-size: 20px;
+ }    eorokom koreo hy tobe "id" die korata besi efficient */
+
+/* # is used before id whereas . is used before class */
+
+#title{
+    color: brown;
+    background-color: cadetblue;
+}
+
+#title1{
+    color: darkblue;
+    background-color: darkkhaki;
+}
+#para{
+    color: navy;
+    background-color: rgb(76, 228, 152);
+}
+
+/* id will be different for every selectors but class may be same for more than one selector */
+
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+
+#head{
+    font-size: 45px;
+    color: orangered;
+    background-color: wheat;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+/* div{
+    color: darkturquoise;
+    background-color:rgb(21, 21, 197);
+} */
+.basket{
+    color: crimson;
+    background-color: rgb(170, 195, 218);
+}
+
+span{
+    color: goldenrod;
+    background-color: black;
+}

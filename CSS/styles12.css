@@ -1,0 +1,26 @@
+/* display property  */
+/* elements have it save by default 
+block - always starts a new line and spans full width 
+inline - does not start a new line and spans only content */
+
+.block{
+    background-color: blue;
+    color: white;
+    width: 300px;
+    /* margin: 2rem auto; */
+    margin-left: auto;
+    margin-right: auto;
+    /* display: block;
+    display: inline; */
+}
+.inline{
+    background-color: red;
+    color: white;
+    /* display: inline;
+    display: block; */
+} 
+
+/* horizontal centering */
+body{
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+/* font-size - size of the fonts 
+font-family - describes the font of the element */
+
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: right;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+/* google fonts  */
+
+h2{
+    font-family: 'MonteCarlo', cursive;
+}
+.one{
+    font-weight: bold;
+    font-style: normal;
+    text-align: center ;
+}
+.two{
+    font-weight: lighter;
+}

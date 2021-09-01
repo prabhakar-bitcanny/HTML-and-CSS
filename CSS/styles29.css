@@ -1,0 +1,16 @@
+/* hover  */
+
+div:hover{
+    color: green;
+}
+.header:hover{
+    background-color: greenyellow;
+    color: indigo;
+    word-spacing: 5px;
+}
+a:hover{
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: lightcoral;
+    color: black;
+}

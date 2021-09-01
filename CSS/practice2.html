@@ -1,0 +1,65 @@
+<!-- use of class, id, div, span -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tutorial</title>
+    <!-- linking a style sheet -->
+    <link rel="stylesheet" href="./styles.css">
+
+<body>
+    <!-- linking a new html page -->
+    <a href="about.html" class="red">About</a>
+    <!-- use of 'id' -->
+    <h1 id="title">Hii Prabhakar</h1>
+
+    <!-- <h2>Khela Hobe</h2>
+    <h2>Khela Hobe</h2> -->
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus omnis, tempora rerum corporis
+        quisquam excepturi harum autem inventore ex adipisci id facere repellat doloremque incidunt ullam fugit iste
+        laudantium distinctio.</p>
+    <h1 id="title1">Hii Prabhakar</h1>
+
+    <!-- use of class -->
+    <h3 class="green">I am green</h3>
+    <!-- using two classes. Here two classes are red and uppercase-->
+    <h3 class="red uppercase">I am red</h3>
+    <h3 class="green uppercase">I am green</h3>
+    <h3 class="red">I am red</h3>
+
+    <!-- we can also combine 'id' and 'class' in a selector -->
+    <h2 id="head" class="uppercase">I am header two</h2>
+
+    <!-- use of div and the style of div is defined in styles.css file-->
+    <div class="basket">
+        <h3>Cricket</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio illum qui nam fugiat earum odio impedit culpa
+            consequuntur minus animi.</p>
+    </div>
+    <div class="basket">
+        <h3>Football</h3>
+        <p>Lorem, ipsum dolor sit
+            <span class="uppercase">amet consectetur adipisicing elit.</span>
+            Odio aliquam enim voluptatem animi. Neque odio exercitationem accusamus laborum, maxime repellendus.
+        </p>
+    </div>
+
+    <!-- if use class inside div then we should not define div in the style sheet -->
+    <div class="basket">
+        <h3>Basket Ball</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, corrupti optio in totam temporibus
+            provident alias quod sed aspernatur nihil?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit Voluptate maxime
+            <span class="uppercase">laboriosam dolores vitae</span>
+            deserunt, dignissimos harum amet. Consequatur ratione, mollitia nemo placeat error vel voluptate! Ab
+            quisquam placeat pariatur recusandae.
+        </p>
+    </div>
+</body>
+</head>
+
+</html>

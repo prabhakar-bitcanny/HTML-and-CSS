@@ -1,0 +1,63 @@
+/* COLOR PROPERTIES */
+/* COLOR BACKGROUND-COLOR BACKGROUMD */
+
+#first{
+    color: pink;
+    background-color: black;
+}
+#second{
+    color: red;
+    background-color: yellow;
+}
+
+/* RGB RED GREEN BLUE 0-255 */
+
+#third{
+     color: rgb(255, 0, 0);
+     background-color: rgb(0, 0, 0);
+}
+#fourth{
+    color: rgb(0, 255, 0);
+    background-color: rgb(255,255,255);
+}
+
+body{
+    background-color: rgb(125,10,200);
+}
+
+/* RGBA where A stands for opacity or transparency : 0-1 */
+/* 4th value ta decide kore color density ta kato hbe */
+#fifth{
+    color: rgba(255,0,0,1);
+    background-color: rgba(243,100,20,0.50);
+}
+#six{
+    color: rgba(19, 2, 2, 0.719);
+    background-color: rgba(120,250,43,025);
+}
+#seven{
+    color: rgba(255, 0, 0, 0.993);
+    background-color: rgba(40,50,60,0.20);
+}
+
+/* applying the last rule i just checked whether it is working properly or not */
+body{
+    background-color: rgba(0,175,0,0.20);
+}
+
+/* HEX VALUES OF COLOR #RRGGBB */
+  /* #FF0000 - RED */
+  /* #00FF00 - GREEN */
+
+#eight{
+    color: #ff0000;
+    background-color: #000;
+}
+#nine{
+    color: #fff;
+    background-color: #000;
+}
+#ten{
+    color: #ad0215;
+    background-color: #f312e4;
+} 

@@ -1,0 +1,32 @@
+/* last rule and specificity * universal selector */
+
+/* 1. last rule  */
+p{
+    color: darkblue;
+} 
+
+/* some code will be here */
+
+p{
+    color: darkorchid;
+}
+
+.special{
+    color: rgb(221, 16, 61);
+}
+
+/* 2. specificity */
+/* id has more specificity than class */
+#heading{
+    color: darkturquoise;
+}
+
+.heading{
+    color: firebrick;
+}
+
+/* 3. universal selector */
+/* universal selector has lowest specificity */
+*{
+    color:gold
+}

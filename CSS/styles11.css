@@ -1,0 +1,24 @@
+/* outline, offset  */
+
+.links{
+    margin: 3rem;
+}
+a{
+    background-color: rgb(155, 90, 16);
+    padding: 1.2rem 1.5rem;
+    text-decoration: none;
+    color: rgb(223, 238, 10);
+    text-transform: uppercase;
+    margin: 0 20px ;
+}
+#one{
+    border: 0.2rem solid #222;
+    outline: 0.2rem solid red;
+    outline-offset: -10px;
+}
+#two{
+    outline-width: 0.2rem;
+    outline-color: darkslategray;
+    outline-style: solid;
+    outline-offset: 5px;
+}

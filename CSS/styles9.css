@@ -1,0 +1,38 @@
+/* CSS BOX MODEL, padding, margin, border   */
+h1,p{
+    color: white;
+}
+h1{
+    background-color: red;
+    /* padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px; */
+    /* width: 37vw; */
+    padding: 20px;
+    margin: 2rem;
+    margin: 20px 40px 20px 40px;
+    /* border-style: solid;
+    border-width: 20px;
+    border-color: rgba(170, 163, 163, 0.767); */
+    border-bottom-style: double;
+    border-block-color: rgba(8, 57, 218, 0.733);
+    border-bottom-width: 15px;
+}
+p{
+    background-color: blue;
+    padding: 40px;   /* this will cover each side padding  */
+    padding: 30px 60px; /* here first value considering the top and bottom, second value is for left and right side  */
+    padding: 40px 20px 40px 20px ;/* each side is defined here */
+    padding: 20px;
+    margin: 20px 40px ;
+    margin: 2rem;
+    margin: 20px 40px 20px 40px;
+    border: 1rem dashed orangered;
+}
+
+*{
+    margin: 0;
+}
+
+

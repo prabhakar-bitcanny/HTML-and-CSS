@@ -1,0 +1,40 @@
+/* background attachment */
+/* background overlay */
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+div{
+    min-height: 100vh;
+    color: rgb(234, 250, 6);
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.big-img{
+    background: url('./big.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+.small-img{
+    background: url('./images/folder-img.jpeg');
+    background-position: center; 
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.folder-img{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./big.jpeg');
+    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

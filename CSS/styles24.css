@@ -1,0 +1,45 @@
+/* position:sticky  - toggles between relative and fixed once the position is met in the viewport - then it sticks
+one of the values top,left,bottom,right */
+
+
+.nav{
+    background: red;
+    color: white;
+    font: 20px;
+    text-transform: capitalize;
+    position: sticky;
+    margin-top: 0;
+    top: 0;
+    /* left: 0; */
+    width: 100%;
+}
+
+div{
+    border: 3px solid red;
+    background: yellow;
+    margin-top: 40px;
+    
+}
+.one{
+    background: blue;
+    color: white;
+    
+}
+.two{
+    background: green;
+    color: white;
+}
+
+
+.special{
+    background: pink;
+    color: purple;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.container{
+    background: linear-gradient(blue, green);
+    min-height: 400vh;
+}
+
